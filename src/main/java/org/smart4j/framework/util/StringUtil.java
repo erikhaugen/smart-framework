@@ -22,10 +22,22 @@ public final class StringUtil {
 
     /**
      * 判断字符串是否非空
+     *
      * @param str
      * @return
      */
     public static boolean isNotEmpty(String str) {
         return !isEmpty(str);
+    }
+
+    /**
+     * 按给定字符切割字符串
+     *
+     * @param str
+     * @param regex
+     * @return
+     */
+    public static String[] splitString(String str, String regex) {
+        return str.split(regex);
     }
 }
