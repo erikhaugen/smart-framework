@@ -1,7 +1,5 @@
 package org.smart4j.framework;
 
-import javafx.beans.binding.ObjectExpression;
-import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.smart4j.framework.bean.Data;
 import org.smart4j.framework.bean.Handler;
 import org.smart4j.framework.bean.Param;
@@ -12,7 +10,6 @@ import org.smart4j.framework.helper.ControllerHelper;
 import org.smart4j.framework.helper.HelperLoader;
 import org.smart4j.framework.util.*;
 
-import javax.jws.Oneway;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
